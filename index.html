@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form | The Avengers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey-Form | The Avengers</h1>
+    <p id="description">Pick your favorite hero, Assemble!</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            Name
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+
+    
+        <label for="email" id="email-label">
+            Email
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+
+        
+            <label for="number" id="number-label">
+                Age
+                <input type="number" id="number" placeholder="Enter your age" min="8" max="83">
+            </label>
+
+            <label for="dropdown" >
+                 Gender
+                 <select id="dropdown">
+                     <option>Male</option>
+                     <option>Female</option>
+                 </select>
+             </label>
+
+
+             <label for="character" >
+                Who is your favorite character?
+            </label>
+                <input type="radio" name="character" value="1" checked> Iron man <br>
+                <input type="radio" name="character" value="2"> Thor <br>
+                <input type="radio" name="character" value="3"> Hulk <br>
+                <input type="radio" name="character" value="4"> Vision <br>
+                <input type="radio" name="character" value="5"> Quick Silver <br>
+                <input type="radio" name="character" value="6"> Ant-man <br>
+                <input type="radio" name="character" value="7"> Captain America <br>
+                <input type="radio" name="character" value="8"> Captain Marvel <br>
+                <input type="radio" name="character" value="9"> Gamora <br>
+                <input type="radio" name="character" value="10"> Doctor Strange <br>
+                <input type="radio" name="character" value="11"> Winter Soldier <br>
+
+            <br>
+            
+            <label for="movie" >
+               What is your favorite MCU?
+            </label>
+            <input type="checkbox" value="im1"> Iron Man 1 <br>
+            <input type="checkbox" value="sffh"> Spiderman - Far From Home <br>
+            <input type="checkbox" value="ds"> Doctor Strange <br>
+            <input type="checkbox" value="ta"> The Avengers <br>
+
+            <br>
+                <label for="textarea" id="number-label">
+                    Any comments or suggestions?
+                    <textarea id="textarea" cols="30" rows="10"></textarea>
+                </label>
+
+            <button id="submit" type="submit">submit</button>
+    </form>
+
+</body>
+</html>
